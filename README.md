@@ -42,17 +42,6 @@ $ stringtie --merge -p 8 -G genome.gtf -o stringtie_merged.gtf mergelist.txt
 gffcompare –r genomegtf –G –o merged stringtie_merged.gtf
 
 gffcompare download from http://ccb.jhu.edu/software/stringtie/gff.shtml
-= Predicted transcript has exactly the same introns as the reference transcript
-c Predicted transcript is contained within the reference transcript
-j Predicted transcript is a potential novel isoform that shares at least one splice junction with a reference transcript
-e Predicted single-exon transcript overlaps a reference exon plus at least 10 bp of a reference intron, indicating a possible pre-mRNA fragment
-i Predicted transcript falls entirely within a reference intron
-o Exon of predicted transcript overlaps a reference transcript
-p Predicted transcript lies within 2 kb of a reference transcript (possible polymerase run-on fragment)
-r Predicted transcript has >50% of its bases overlapping a soft-masked (repetitive) reference sequence
-u Predicted transcript is intergenic in comparison with known reference transcripts
-x Exon of predicted transcript overlaps reference but lies on the opposite strand
-s Intron of predicted transcript overlaps a reference intron on the opposite strand
 
 7. Qualification：
 
